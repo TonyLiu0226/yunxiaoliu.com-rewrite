@@ -1,0 +1,43 @@
+/* ALL CSS FILES FOR COMPONENTS MUST FOLLOW FOLLOWING FILE NAME FORMAT:
+    Component.module.css */
+    .title a,
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.header {
+    display:block;
+    min-height:250px;
+    width:100%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    align-self:center;
+    background-image:url("https://res.cloudinary.com/yuliu/image/upload/c_fill,w_2160/v1671340003/1627624373341_xflc7q.jpg");
+    background-repeat:no-repeat;
+    color:red;
+}
