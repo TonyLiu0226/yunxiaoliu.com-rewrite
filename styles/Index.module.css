@@ -1,0 +1,35 @@
+
+.blog_title {
+    font-size: clamp(36px, 4vw, 60px);
+    margin-top:25px;
+    margin-bottom:50px;
+    text-align:center;
+}
+.tits{
+    font-size: clamp(26px, 3vw, 40px);
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+.subtits{
+    font-size: clamp(20px, 2vw, 28px);
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+}   
+
+.published {
+    font-size: clamp(17px, 1.5vw, 22px);
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align:center;
+}
+
+.img {
+    display:flex;
+    justify-content:center;
+}
+
+.img2 {
+    width:135px;
+    height:200px;
+}

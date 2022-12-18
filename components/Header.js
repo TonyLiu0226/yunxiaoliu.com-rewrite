@@ -1,6 +1,7 @@
 import styles from "../styles/Header.module.css"
 
 const Header = (props) => {
+    console.log(props.var);
     return(
         <div className={styles.header}>
             <h1 className="title">The CPENer</h1>
@@ -16,7 +17,7 @@ const Header = (props) => {
                         padding-top:30px;
                     }
                     .subtitle {
-                        color: ${props.var > 50 ? "red" : "green"}
+                        color: ${props.var > 50 ? "red" : "green"};
                         font-size: clmap(25px, 2.5vw, 44px);
                         font-family: var(--font-mono);
                         text-align:center;

@@ -1,12 +1,13 @@
 //CAN ONLY import global styles here
 import '../styles/globals.css'
 import Layout from '../components/Layout'
+import {useState, useEffect} from 'react';
+
 
 export default function App({ Component, pageProps }) {
-  const x = Math.random() * 100;
-  console.log(x);
+  
   return(
-    <Layout var={x}>
+    <Layout>
       <Component {...pageProps} />
     </Layout>
   ) 
