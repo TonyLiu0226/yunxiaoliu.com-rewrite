@@ -1,21 +1,29 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-size: 1.25rem;
+  font-family: var(--font-mono);
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.description h1 {
+  padding: 0;
+  margin: 0;
 }
 
 .description a {
@@ -51,7 +59,6 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
 }
 
 .card span {
