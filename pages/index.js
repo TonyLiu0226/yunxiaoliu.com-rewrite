@@ -78,9 +78,4 @@ export default function Home() {
   )
 }
 
-/* FETCHING DATA: can do multiple ways:
-- getStaticProps() fetches data only upon loading page
-- getServerSideProps() fetches data on every request
-- getStaticPaths() dynamically generate paths based on data that is being fetched
-- All functions must be async, as they use async await
-*/
+
