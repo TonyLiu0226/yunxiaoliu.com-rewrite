@@ -5,7 +5,14 @@ import ArticleItem from "../components/ArticleItem.js"
 const ArticleList = ({articles}) => {
     return(
       <div className={styles.grid}>
-        {articles.map((article) => (<ArticleItem key={article.id} article={article}/>))}
+        {articles.map((article) => {
+            //extract number and frontmatter
+            const {number, frontmatter} = article
+            
+            //JSX for individual blog listing
+            return <ArticleItem key={number} article={article}>
+            </ArticleItem>
+        })}
       </div>  
     )
 }

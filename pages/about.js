@@ -2,16 +2,9 @@
 //if want to create component, place file in components instead
 //use lowercase for pages, uppercase for components
 
-import ArticleList from "../components/ArticleList.js"
 
-const about = ({articles}) => {
-    console.log(articles);
-    return(
-        <div>
-            <h1>About me</h1>
-            <ArticleList articles={articles}></ArticleList>
-        </div>
-    )
+const about = () => {
+    return <h1>Bruh</h1>
 }
 
 export default about
@@ -22,14 +15,14 @@ export default about
 - getStaticPaths() dynamically generate paths based on data that is being fetched
 - All functions must be async, as they use async await
 */
-export const getStaticProps = async() => {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`);
-    const articles = await res.json();
+// export const getStaticProps = async() => {
+//     const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`);
+//     const articles = await res.json();
 
-    //can return json objects props
-    return {
-        props: {
-            articles
-        }
-    }
-}
+//     //can return json objects props
+//     return {
+//         props: {
+//             articles
+//         }
+//     }
+// }
