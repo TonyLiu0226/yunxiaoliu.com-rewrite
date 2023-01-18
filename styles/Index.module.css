@@ -9,6 +9,7 @@
     font-size: clamp(26px, 3vw, 40px);
     margin-top: 20px;
     margin-bottom:10px;
+    text-align: center;
 }
 .subtits{
     font-size: clamp(20px, 2vw, 28px);
