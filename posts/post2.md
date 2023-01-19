@@ -1,7 +1,7 @@
 ---
 title: "How to survive 2nd year CPEN"
-author: "Tony Liu"
-authorImage: "../public/authorPhotos/TL.png"
+author: "The CPENer"
+authorImage: "/authorPhotos/c.jpeg"
 date: "2022-05-16"
 time: "18:36:21"
 category: "education"
@@ -47,10 +47,10 @@ Congrats. Now you get to suffer less. Here's what I would do:
 
 | T1          | T2          |
 | ----------- | ----------- |
-| CPEN 211    | CPSC 221    |
-| CPEN 221    | CPEN 212    |
-| \*CPEN 281  | CPEN 291    |
-| MATH 256    | ELEC 201    |
+| CPEN 211    |  CPSC 221    |
+| CPEN 221    |  CPEN 212    |
+| \*CPEN 281  |  CPEN 291    |
+| MATH 256    |  ELEC 201    |
 
 \* Denotes courses you can move into the following summer.
 
@@ -62,10 +62,10 @@ Congrats. You get to suffer less, but it wont be as chill than those in the abov
 
 | T1                                      | T2          |
 | -----------                             | ----------- |
-| CPEN 211                                | MATH 256    |
-| CPEN 221                                | CPEN 212    |
-| CPEN 281                                | CPEN 291    |
-| The MATH course that you didn't take    | ELEC 201    |
+| CPEN 211                                |  MATH 256    |
+| CPEN 221                                |  CPEN 212    |
+| CPEN 281                                |  CPEN 291    |
+| The MATH course that you didn't take    |  ELEC 201    |
 
 \* You would want to take CPSC 221 in the following summer. You could also move 281 into summer too if you really wanted
 
@@ -77,10 +77,10 @@ Oof rip. Though things still won't be bad as you think it will be, you'll just h
 
 | T1          | T2          |
 | ----------- | ----------- |
-| CPEN 211    | MATH 256    |
-| CPEN 221    | CPEN 212    |
-| MATH 220    | CPEN 291    |
-| MATH 253    | ELEC 201    |
+| CPEN 211    |  MATH 256    |
+| CPEN 221    |  CPEN 212    |
+| MATH 220    |  CPEN 291    |
+| MATH 253    |  ELEC 201    |
 
 \* Take CPEN 281 as APSC 201 in following summer, as well as CPSC 221.
 
@@ -94,11 +94,11 @@ This was what I ended up doing. The course I was missing was linear algebra.
 
 | T1          | T2          |
 | ----------- | ----------- |
-| CPEN 211    | Mald        |
-| CPEN 221    | MATH 256    |
-| CPEN 281    | CPEN 291    |
-| MATH 253    | ELEC 201    |
-| MATH 221    | CPEN 212    |
+| CPEN 211    |  Mald        |
+| CPEN 221    |  MATH 256    |
+| CPEN 281    |  CPEN 291    |
+| MATH 253    |  ELEC 201    |
+| MATH 221    |  CPEN 212    |
 
 \* I took MATH 220 along with 3rd year stats course and a free elective in the summer. Then I did CPSC 221 3rd year.
 
@@ -106,10 +106,10 @@ Looking over this, I would say this isn't the most ideal. I felt really burnt ou
 
 | T1          | T2          |
 | ----------- | ----------- |
-| CPEN 211    | CPEN 212    |
-| CPEN 221    | MATH 256    |
-| MATH 253    | CPEN 291    |
-| MATH 221    | ELEC 201    |
+| CPEN 211    |  CPEN 212    |
+| CPEN 221    |  MATH 256    |
+| MATH 253    |  CPEN 291    |
+| MATH 221    |  ELEC 201    |
 
 \* Take CPEN 281 as APSC 201 in summer, plus MATH 220. Then try to take a third course in the summer, such as probability/stats, a free elective, or anything that you normally would take in 3rd year. Then, you can move CPSC 221 to 3rd year without overloading your schedule.
 

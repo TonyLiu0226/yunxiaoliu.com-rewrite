@@ -1,7 +1,7 @@
 ---
 title: "The 10 step guide to achieving perfect and flawless skin"
 author: "Alex Hussain"
-authorImage: "/AH.png"
+authorImage: "/authorPhotos/AH.png"
 date: "2019-10-25"
 time: "23:02:04"
 category: "skincare"
