@@ -21,3 +21,7 @@
 .main {
     line-height: 1.3;
 }
+
+.pfp {
+    max-width: 300px;
+}

@@ -20,7 +20,7 @@ const article = ({frontmatter, content}) => {
             {/* frontmatter content */}
             <h1 className={styles.h1}>{title}</h1>
             <h3 className={styles.h3}>{author}</h3>
-            <img src={authorImage}></img>
+            <img src={authorImage} className={styles.pfp}></img>
             <h3 className={styles.h3}>{date}{' '}{time}</h3>
             <h4 className={styles.h4}>{category}</h4>
             {/* <li>
