@@ -4,9 +4,11 @@ import md from 'markdown-it';
 //nested routes: Specify route path as directories in pages folder
 //then use []
 import {useRouter} from 'next/router';
-import styles from '../../../styles/Article.module.css';
+import styles from '../../../styles/ArticleId.module.css';
 
 const article = ({frontmatter, content}) => {
+
+    
     const router = useRouter();
     const {id} = router.query; //save id in case we want to use it in the future
     
@@ -14,19 +16,22 @@ const article = ({frontmatter, content}) => {
 
     return(
         <div>
+            <div className={styles.frontmatter}>
             {/* frontmatter content */}
-            <h1 style={styles.h1}>{title}</h1>
-            <h3 style={styles.h3}>{author}</h3>
+            <h1 className={styles.h1}>{title}</h1>
+            <h3 className={styles.h3}>{author}</h3>
             <img src={authorImage}></img>
-            <h3 style={styles.h3}>{date}{' '}{time}</h3>
-            <h4 style={styles.h4}>{category}</h4>
-            <li>
+            <h3 className={styles.h3}>{date}{' '}{time}</h3>
+            <h4 className={styles.h4}>{category}</h4>
+            {/* <li>
                 {tags.map((tag) => {
                     <h4>{tag}</h4>
                 })}
-            </li>
+            </li> */}
+            </div>
+            <br></br>
             {/* main content */}
-            <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+            <div className={styles.main} dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         </div>
     )
 }

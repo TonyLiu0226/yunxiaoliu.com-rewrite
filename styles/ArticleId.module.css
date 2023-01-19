@@ -12,3 +12,12 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.frontmatter {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.main {
+    line-height: 1.3;
+}

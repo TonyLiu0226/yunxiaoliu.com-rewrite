@@ -40,6 +40,10 @@
   .logo {
     height: 1em;
   }
+
+  .divs {
+    text-align:center;
+  }
   
   @media (max-width: 600px) {
     .grid {
