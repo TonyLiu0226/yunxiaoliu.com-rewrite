@@ -19,10 +19,10 @@ const article = ({frontmatter, content}) => {
             <div className={styles.frontmatter}>
             {/* frontmatter content */}
             <h1 className={styles.h1}>{title}</h1>
-            <h3 className={styles.h3}>{author}</h3>
+            <h3 className={styles.h3}>Published by: {author}</h3>
             <img src={authorImage} className={styles.pfp}></img>
             <h3 className={styles.h3}>{date}{' '}{time}</h3>
-            <h4 className={styles.h4}>{category}</h4>
+            <h4 className={styles.h4}>Category: {category}</h4>
             {/* <li>
                 {tags.map((tag) => {
                     <h4>{tag}</h4>
