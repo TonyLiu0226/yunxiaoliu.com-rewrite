@@ -8,7 +8,9 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { colors } from '../constants/constants.js'
+import { colors } from '../constants/constants.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const ArticleItem = ({article}) => {
     let i = Math.floor((Math.random() * colors.length));
@@ -17,9 +19,10 @@ const ArticleItem = ({article}) => {
         //nested routing of each article link
         <Link legacyBehavior href="/article/[id]" as={`/article/${article.number}`}>
             {/* we make a card for each article */}
-            <Card sx={{width: "100%", margin: "20px 0", display: "flex", justifyContent: 'space-between'}}>
+            <Card data-aos="fade-in" data-aos-duration="1000"
+    data-aos-easing="ease-in" sx={{width: "100%", margin: "20px 0", display: "flex", justifyContent: 'space-between'}}>
             <CardMedia
-                style={{ width: 280, maxWidth: "35%" }}
+                style={{ width: 280, maxWidth: "35%", cursor:"pointer" }}
                 image="/77.jpeg"
                 title="green iguana"
             />

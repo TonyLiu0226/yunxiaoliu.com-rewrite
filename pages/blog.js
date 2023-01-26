@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { useEffect} from 'react';
 import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,6 +10,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+
 
 const Blog = ({posts}) => {
     
