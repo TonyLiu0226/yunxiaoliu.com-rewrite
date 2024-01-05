@@ -17,7 +17,7 @@ const Nav = () => {
           About me
         </Navbar.Link>
         <Navbar.Link as={Link} href="/#work-card">
-         Work Experience
+         Work & Education
         </Navbar.Link>
         <Navbar.Link href="/#projects-card">Projects</Navbar.Link>
         <Navbar.Link href="/#courses-card">Courses</Navbar.Link>

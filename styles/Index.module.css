@@ -38,3 +38,7 @@
 .aboutImage {
     object-fit: contain;
   }
+
+.timelineElement {
+    background-color: rgb(167 243 208)
+}
