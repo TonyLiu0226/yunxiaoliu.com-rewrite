@@ -15,11 +15,16 @@
     "@mui/material": "^5.11.5",
     "@next/font": "13.0.7",
     "aos": "^2.3.4",
+    "autoprefixer": "^10.4.16",
+    "flowbite": "^2.2.1",
+    "flowbite-react": "^0.7.2",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "material-dynamic-colors": "^0.1.5",
     "next": "^13.0.7",
+    "postcss": "^8.4.33",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.0"
   }
 }

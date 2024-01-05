@@ -22,11 +22,7 @@ export default function Home({posts}) {
     }
   }
   return (
-    <div>
-      <h1 style={styles.tits}>MOST RECENT POSTS</h1>
-      <ArticleList articles={postShortList}>
-        </ArticleList>
-    </div>
+    <></>
   )
 }
 
