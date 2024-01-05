@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { ThemeModeScript } from 'flowbite-react';
 
 //custom document file to augment (add props to) HTML and body tags as required
 //rendered on server
@@ -6,7 +7,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+      <ThemeModeScript />
+      </Head>
       <link rel="shortcut icon" href="YL.png" />
       <body>
         <Main />

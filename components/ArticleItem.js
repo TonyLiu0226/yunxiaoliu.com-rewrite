@@ -24,7 +24,6 @@ const ArticleItem = ({article}) => {
             <CardMedia
                 style={{ width: 280, maxWidth: "35%", cursor:"pointer" }}
                 image="/77.jpeg"
-                title="green iguana"
             />
             <CardContent sx={{width: "100%", backgroundColor: `${colors[i]}`}}>
                 <a className={styles.card}>

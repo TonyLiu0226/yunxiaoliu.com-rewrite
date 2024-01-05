@@ -4,8 +4,8 @@ const Header = (props) => {
     console.log(props.var);
     return(
         <div className={styles.header}>
-            <h1 className="title">The CPENer</h1>
-            <p className="subtitle">Yet another lame blog from yet another burnt out ece student</p>
+            <h1 className="title">Yunxiao (Tony) Liu</h1>
+            <p className="subtitle">UBC CPEN Student | Aspiring Software Developer</p>
             {/* styled jsx */}
             <style jsx>
                 {`
