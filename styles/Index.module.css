@@ -34,3 +34,7 @@
     width:135px;
     height:200px;
 }
+
+.aboutImage {
+    object-fit: contain;
+  }

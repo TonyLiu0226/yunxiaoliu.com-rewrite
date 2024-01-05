@@ -1,10 +1,10 @@
 import styles from '../styles/Index.module.css'
 import { Card } from 'flowbite-react';
 
-const AboutCard = () => {
+const Contacts = () => {
     return(
         <div>
-        <h1 className={styles.title}>About Me</h1>
+        <h1 className={styles.title}>Contacts</h1>
       <div className="mx-0.5 w-full flex justify-center items-center"> 
     <Card className="!max-w-screen-xl !min-w-80 !w-full transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:dark:bg-emerald-800 hover:bg-amber-300 duration-300"
      renderImage={() => <img width={'40%'} className={styles.aboutImage} src="YL.png" alt="image 1"></img>} horizontal>
@@ -40,4 +40,4 @@ const AboutCard = () => {
     )
 }
 
-export default AboutCard
+export default Contacts

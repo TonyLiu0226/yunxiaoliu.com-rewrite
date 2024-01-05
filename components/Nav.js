@@ -4,7 +4,7 @@ import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 
 const Nav = () => {
     return(
-        <Navbar fluid rounded>
+        <Navbar fluid rounded className="fixed top-0 left-0 right-0 z-40">
       <Navbar.Brand>
         <img src="/YL.png" className="mr-3 h-6 sm:h-9" alt="YL logo" />
       </Navbar.Brand>
@@ -13,14 +13,15 @@ const Nav = () => {
       </Flowbite>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href="/" active>
+        <Navbar.Link href="/">
           About me
         </Navbar.Link>
-        <Navbar.Link as={Link} href="/">
+        <Navbar.Link as={Link} href="/#work-card">
          Work Experience
         </Navbar.Link>
-        <Navbar.Link href="/">Projects</Navbar.Link>
-        <Navbar.Link href="/">Contact me</Navbar.Link>
+        <Navbar.Link href="/#projects-card">Projects</Navbar.Link>
+        <Navbar.Link href="/#courses-card">Courses</Navbar.Link>
+        <Navbar.Link href="/#contacts-card">Contact me</Navbar.Link>
         <Navbar.Link href="blog">Blog</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
