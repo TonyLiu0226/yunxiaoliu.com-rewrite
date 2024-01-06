@@ -12,13 +12,13 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-    <div id="intro-card" className="w-full flex-col items-center">
+    <div id="intro-card" className="!min-w-80 w-full flex-col items-center">
       <AboutCard></AboutCard>
     </div>
-    <div id="work-card" className="w-full flex-col items-center">
+    <div id="work-card" className="!min-w-80 w-full flex-col items-center">
       <Work></Work>
     </div>
-    <div id="projects-card"className="w-full flex-col items-center">
+    <div id="projects-card"className="!min-w-80 w-full flex-col items-center">
       <Projects></Projects>
     </div>
     <div id="courses-card" className="w-full flex-col items-center">
