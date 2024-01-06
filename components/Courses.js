@@ -1,42 +1,64 @@
 import styles from '../styles/Index.module.css'
-import { Card } from 'flowbite-react';
+import CourseCard from '../components/CourseCard'
+
+const CourseList = [
+  {
+    Title: 'CPEN 355',
+    ImagePath: 'CPEN_355.png',
+    Description: 'Machine learning with engineering applications',
+  },
+  {
+    Title: 'ELEC 331',
+    ImagePath: 'ELEC_331.png',
+    Description: 'Computer networking and communications',
+  },
+  {
+    Title: 'CPSC 304',
+    ImagePath: 'CPSC_304.png',
+    Description: 'Introduction to relational databases',
+  },
+  {
+    Title: 'CPSC 330',
+    ImagePath: 'CPSC_330.png',
+    Description: 'Applied machine learning',
+  },
+  {
+    Title: 'CPEN 331',
+    ImagePath: 'CPEN_331.png',
+    Description: 'Operating systems',
+  },
+  {
+    Title: 'CPSC 221',
+    ImagePath: 'CPSC_221.png',
+    Description: 'Data structures and algorithms',
+  },
+  {
+    Title: 'CPEN 291',
+    ImagePath: 'CPEN_291.png',
+    Description: 'Project-based design studio for computer engineering students',
+  },
+  {
+    Title: 'CPEN 221',
+    ImagePath: 'CPEN_221.png',
+    Description: 'Introductory software engineering and Object-Oriented programming',
+  },
+  {
+    Title: 'CPEN 212',
+    ImagePath: 'CPEN_212.png',
+    Description: 'Computer architecture',
+  }
+]
 
 const Courses = () => {
     return(
-        <div>
-        <h1 className={styles.title}>Favourite Courses</h1>
-      <div className="mx-0.5 w-full flex justify-center items-center"> 
-    <Card className="!max-w-screen-xl !min-w-80 !w-full transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:dark:bg-emerald-800 hover:bg-amber-300 duration-300"
-     renderImage={() => <img width={'40%'} className={styles.aboutImage} src="YL.png" alt="image 1"></img>} horizontal>
-      <h3 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Yunxiao Liu
-      </h3>
-      <p className="font-normal text-gray-900 dark:text-gray-100">
-        Hello, I am a third year Computer Engineering student at the University of British Columbia, focusing mainly on
-        software engineering. I enjoy building meaningful side projects using the full-stack development skills I gained
-        through school and previous work experiences. Some of my more recent projects include MoodSense, an AI-enhanced journaling
-        app, and Dexbooru, a modernized anime image board. Outside of school and work, I enjoy playing video games, watching anime,
-        hiking, skiing, and dining out.
-      </p>
-
-      <p className="font-normal text-gray-900 dark:text-gray-100">
-        Some of the tools and technologies I am familiar with include:
-      </p>
-      <ul>
-        <li className="font-normal text-blue-600 dark:text-rose-400">Languages: JavaScript, TypeScript, Python, Java, C/C++</li>
-        <li className="font-normal text-blue-600 dark:text-rose-400">Frameworks: React, React Native, Sveltekit, NextJS, Flask</li>
-        <li className="font-normal text-blue-600 dark:text-rose-400">Databases: MongoDB, GraphQL, OracleDB, PostgreSQL</li>
-        <li className="font-normal text-blue-600 dark:text-rose-400">Cloud: AWS Lambda, DynamoDB, S3, Cloudfront, ElastiCache</li>
-      </ul>
-
-      <p className="font-normal text-gray-900 dark:text-gray-100">
-        I am currently interested in learning more about AI and machine learning, and am looking to gain more experience with using cloud technologies
-        such as AWS and Docker. I am also seeking internship opportunities for 2024 to further develop my professional career, so any advice, referrals,
-        or job search tips would be welcome!
-      </p>
-    </Card>
-    </div>
-    </div>
+      <div>
+      <h1 className={styles.title}>Favourite Courses</h1>
+    <div className=" mx-0.5 grid grid-justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-2"> 
+      {CourseList.map((course, index) => (
+        <CourseCard Title={course.Title} ImagePath={course.ImagePath} Description={course.Description} key={index}></CourseCard>
+      ))}
+  </div>
+  </div>
     )
 }
 
