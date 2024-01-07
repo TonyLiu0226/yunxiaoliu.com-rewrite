@@ -37,8 +37,41 @@
 
 .aboutImage {
     object-fit: contain;
+    width: 60%;
+    max-width: 400px;
+    align-self: center;
   }
 
 .timelineElement {
     background-color: rgb(167 243 208)
 }
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+}
+.aboutImageCard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .aboutImage {
+        width: 100%;
+    }
+    .aboutCard {
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutImageCard {
+        flex: 0 0 35%;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    
+    .aboutTextCard {
+        flex: 0 0 65%;
+    }
+}
+
