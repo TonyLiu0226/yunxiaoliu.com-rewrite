@@ -9,7 +9,7 @@ const Contacts = () => {
         <div>
         <h1 className={styles.title}>Contacts</h1>
       <div className="mx-0.5 w-full flex justify-center items-center"> 
-    <Card className="!max-w-screen-md !min-w-80 !w-full transition ease-in-out hover:dark:bg-violet-400 hover:bg-fuchsia-800 duration-300">
+    <Card className="!max-w-screen-md !min-w-80 !w-full">
       <div className="flex justify-between">
       <Link href="https://www.linkedin.com/in/yunxiaotonyliu/"><FontAwesomeIcon icon={faLinkedin} size='2x' className="dark:text-white"/></Link>
       <Link href="https://github.com/TonyLiu0226"><FontAwesomeIcon icon={faGithub} size='2x' className="dark:text-white"/></Link>
