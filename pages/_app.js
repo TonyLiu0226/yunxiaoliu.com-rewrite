@@ -7,7 +7,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 
-
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init()
@@ -15,7 +14,7 @@ export default function App({ Component, pageProps }) {
   
   return(
     <Layout>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </Layout>
   ) 
 }

@@ -1,3 +1,4 @@
+'use client'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
@@ -10,6 +11,7 @@ import Contacts from '../components/Contacts'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   return (
     <>
     <div id="intro-card" className="!min-w-80 w-full flex-col items-center">

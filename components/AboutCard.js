@@ -6,7 +6,7 @@ const AboutCard = () => {
         <div>
         <h1 className='mb-12 mt-6 text-center text-4xl md:text-5xl xl:text-6xl text-gray-900 dark:text-white'>About Me</h1>
       <div className="mx-0.5 w-full flex justify-center items-center"> 
-    <Card className="Card !max-w-screen-xl !min-w-80 !w-full transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:dark:bg-emerald-800 hover:bg-amber-300 duration-300 border-2 border-black border-solid">
+    <Card className="Card !z-10 !max-w-screen-xl !min-w-80 !w-full transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:dark:bg-emerald-800 hover:bg-amber-300 duration-300 border-2 border-black border-solid">
       <h3 className="text-3xl md:text-4xl xl:text-5xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
         Yunxiao Liu
       </h3>

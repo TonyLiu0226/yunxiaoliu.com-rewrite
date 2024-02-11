@@ -3,7 +3,7 @@ import { Card } from 'flowbite-react';
 const CourseCard = ({Title, ImagePath, Description}) => {
   return (
     <Card
-      className="!w-64 justify-self-center transition ease-in-out hover:-translate-y-1 hover:scale-95 hover:dark:bg-blue-700 hover:bg-red-400 duration-300 border-2 border-black border-solid"
+      className="!z-10 !w-64 justify-self-center transition ease-in-out hover:-translate-y-1 hover:scale-95 hover:dark:bg-blue-700 hover:bg-red-400 duration-300 border-2 border-black border-solid"
       imgAlt="[]"
       imgSrc={ImagePath}
     >
