@@ -52,7 +52,7 @@ const CourseList = [
 const Courses = () => {
     return(
       <div>
-      <h1 className={styles.title}>Favourite Courses</h1>
+      <h1 className='mb-12 mt-6 text-center text-4xl md:text-5xl xl:text-6xl text-gray-900 dark:text-white'>Favourite Courses</h1>
     <div className=" mx-0.5 grid grid-justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-2"> 
       {CourseList.map((course, index) => (
         <CourseCard Title={course.Title} ImagePath={course.ImagePath} Description={course.Description} key={index}></CourseCard>

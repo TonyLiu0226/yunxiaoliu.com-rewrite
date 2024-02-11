@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Work = () => {
     return(
         <div>
-        <h1 className={styles.title}>Work & Education Timeline</h1>
+        <h1 className='mb-12 mt-6 text-center text-4xl md:text-5xl xl:text-6xl text-gray-900 dark:text-white'>Work & Education Timeline</h1>
       <div className="mx-0.5 w-full flex justify-center items-center"> 
       <VerticalTimeline className="!max-w-screen-xl !min-w-80 !w-full text-gray-900 dark:text-white dark:bg-gray-800" lineColor={'rgb(251 191 36)'}>
   <VerticalTimelineElement

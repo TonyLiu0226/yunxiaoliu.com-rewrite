@@ -44,7 +44,7 @@ const ProjectList = [
 const Projects = () => {
     return(
         <div>
-        <h1 className={styles.title}>Projects</h1>
+        <h1 className='mb-12 mt-6 text-center text-4xl md:text-5xl xl:text-6xl text-gray-900 dark:text-white'>Projects</h1>
       <div className=" mx-0.5 grid grid-justify-items-center lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 grid-cols-1 gap-2"> 
         {ProjectList.map((project, index) => (
           <ProjectCard Title={project.Title} Description={project.Description} Technologies={project.Technologies} Link={project.Link} Color={Math.floor(Math.random() * 4)}key={index}></ProjectCard>
