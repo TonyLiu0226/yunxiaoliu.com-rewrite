@@ -14,8 +14,9 @@ import Typography from '@mui/material/Typography';
 
 const Blog = ({posts}) => {
     
-        return <ArticleList articles={posts}>
-        </ArticleList>
+        // return <ArticleList articles={posts}>
+        // </ArticleList>
+        return <Typography variant="h1" className = "text-black dark:text-white">Coming soon! please stay tuned</Typography>
 }
 
 export default Blog
