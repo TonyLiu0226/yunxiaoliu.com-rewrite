@@ -1,6 +1,6 @@
 ---
 title: "The 10 step guide to achieving perfect and flawless skin"
-author: "Alex Hussain"
+author: "Placeholder"
 authorImage: "/authorPhotos/AH.png"
 date: "2019-10-25"
 time: "23:02:04"
@@ -11,7 +11,7 @@ tags:
     - self-esteem
     - wellness
 ---
-Have you ever looked at yourself in the mirror and not liked the look of your skin? Been rejected by a girl lately because you thought your looks weren’t great? Well fear not, because I have some excellent tips to get you looking good again!  
+Have you ever looked at yourself in the mirror and not liked the look of your skin? Been feeling down lately because you thought your looks weren’t great? Well fear not, because I have some excellent tips to get you looking good again!  
   
 
   
@@ -45,11 +45,4 @@ Have you ever looked at yourself in the mirror and not liked the look of your sk
 10. **Repeat the above nine steps.** Consistently and over time, you’ll notice you have better skin. You can’t expect results only from trying something once or twice, so do it everyday for a few weeks or months.  
   
 
-  
 
-  
-That’s it. I hope you realize how I managed to get good looking skin. The next girl I go for will definitely appreciate it, and wish me luck!!  
-  
-  
-
-Ps. We are doing a bike sale this Friday, at our flagship bobby2988 warehouse at 8428 7th street sw. We have both new and used bikes on sale from 50-80% off, and all proceeds go to the Jamal Hussain rejection recovery fund, a not for profit 24/7 help-line for people dealing with relationship issues or rejection.
