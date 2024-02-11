@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import { ThemeModeScript } from 'flowbite-react';
+import {Card} from 'flowbite-react'
 
 //custom document file to augment (add props to) HTML and body tags as required
 //rendered on server
@@ -12,7 +13,9 @@ export default function Document() {
       </Head>
       <link rel="shortcut icon" href="YL.png" />
       <body>
-        <Main />
+        <Card>
+          <Main />
+        </Card>
         <NextScript />
       </body>
     </Html>

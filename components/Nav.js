@@ -1,6 +1,10 @@
 import Link from 'next/link'
 import { Navbar } from 'flowbite-react';
 import { DarkThemeToggle, Flowbite } from 'flowbite-react';
+import { getTableBodyUtilityClass } from '@mui/material';
+
+
+let dark = false;
 
 const Nav = () => {
     return(
@@ -9,7 +13,7 @@ const Nav = () => {
         <img src="/YL.png" className="mr-3 h-6 sm:h-9" alt="YL logo" />
       </Navbar.Brand>
       <Flowbite>
-        <DarkThemeToggle />
+          <DarkThemeToggle />
       </Flowbite>
       <Navbar.Toggle />
       <Navbar.Collapse>
