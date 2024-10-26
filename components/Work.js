@@ -29,11 +29,31 @@ const Work = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(217 119 6)'}}
+    date="May 2022 - Sep 2022"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18' />}
+  >
+    <Link href='https://www.linkedin.com/company/experience-flyover'>
+    <h3 className="vertical-timeline-element-title">Guest Experience Guide</h3>
+    <h4 className="vertical-timeline-element-subtitle">Flyover Canada</h4>
+    <h5 className='text-md'>Vancouver, BC</h5>
+    <p>
+      Worked as a Guest Experience Guide at Flyover Canada, a 4D flight simulation experience in the Canada Place cruise ship terminal.
+    </p>
+    <ul>
+      <li><p>- Worked a variety of stations such as selling tickets, editing and selling photos, and keeping track of retail inventory.</p></li>
+      <li><p>- Scanned tickets and sorted customers into groups for timed entry to ensure a smooth experience for all guests.</p></li>
+      <li><p>- Guided groups of up to 61 people through the entire experience, from preshow to safety demo to ride to exit, adhering to proper safety protocols.</p></li>
+      <li><p>- Communicated effectively with guests and team members in a fast-paced environment to provide a memorable experience to thousands of people every day.</p></li>
+    </ul>
+    </Link>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Jun 2022 - Sep 2022"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
-    <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M1 10c1.5 1.5 5.25 3 9 3s7.5-1.5 9-3m-9-1h.01M2 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1ZM14 5V3a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2h8Z"/>
-  </svg>}
+    icon={<img src='/bigleaf.jpg' alt='The Big Leaf' className='w-18 h-18' />}
   >
     <Link href='https://www.linkedin.com/company/thebigleaf/?originalSubdomain=ca'>
     <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
@@ -53,9 +73,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Jan 2023 - Apr 2023"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
-    <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M1 10c1.5 1.5 5.25 3 9 3s7.5-1.5 9-3m-9-1h.01M2 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1ZM14 5V3a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2h8Z"/>
-  </svg>}
+    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18' />}
   >
     <Link href='https://www.linkedin.com/company/invoke-co/'>
     <h3 className="vertical-timeline-element-title">Fullstack Developer</h3>
@@ -67,6 +85,84 @@ const Work = () => {
     <p>
       Utilized a wide variety of languages, frameworks, and tools, such as TypeScript, React, GraphQL, AWS Lambda, S3, DynamoDB, and ElastiCache.
       </p>
+    </Link>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(217 119 6)'}}
+    date="May 2023 - Dec 2023"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18' />}
+  >
+    <Link href='https://www.linkedin.com/company/experience-flyover'>
+    <h3 className="vertical-timeline-element-title">Guest Experience Guide</h3>
+    <h4 className="vertical-timeline-element-subtitle">Flyover Canada</h4>
+    <h5 className='text-md'>Vancouver, BC</h5>
+    <p>
+      I came back LMAO...
+    </p>
+    </Link>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(217 119 6)'}}
+    date="Dec 2023 - Feb 2024"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<img src='/boardspace.jpg' alt='BoardSpace' className='w-18 h-18' />}
+  >
+    <Link href='https://www.linkedin.com/company/board-space/'>
+    <h3 className="vertical-timeline-element-title">AI Software Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">BoardSpace Inc.</h4>
+    <h5 className='text-md'>Remote</h5>
+    <p>
+      As part of the Riipen Level Up program, worked on a chatbot to improve customer support for a condo management platform. 
+    </p>
+    <ul>
+    <li><p>- Leveraged OpenAI's GPT-4-turbo LLM to generate responses to common questions.</p></li>
+    <li><p>- Developed a Python Flask API to connect the chatbot to the condo management platform.</p></li>
+    <li><p>- Utilized the LangChain framework with OpenAI Embeddings API and FAISS vector database to implement retrieval augmented generation on support website pages.</p></li>
+    <li><p>- Created a Python script to automatically generate tags for new document uploads, eliminating the need for manual curation.</p></li>
+    </ul>
+    </Link>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(217 119 6)'}}
+    date="Jun 2024 - Aug 2024"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18' />}
+  >
+    <Link href='https://www.linkedin.com/company/invoke-co/'>
+    <h3 className="vertical-timeline-element-title">Fullstack Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Invoke Media</h4>
+    <h5 className='text-md'>Vancouver, BC</h5>
+    <p>
+      I came back yet again LMAO....
+    </p>
+    <p>
+      But fr though, this time I had much more responsibilities, working on six projects during my return internship.
+      </p>
+      <ul>
+      <li><p>- Learned about the importance of thorough unit and end-to-end testing, spearheading the implementation of test suites for new features.</p></li>
+      <li><p>- Developed frontend and backend features for client facing applications with minimal guidance in a fast-paced timeline, regularly syncing with stakeholders for feedback.</p></li>
+      <li><p>- Leveraged many technologies not touched on in my previous internship, such as Next.js, Nest.js, Docker, PHP, and PostgreSQL.</p></li>
+      </ul>
+    </Link>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(217 119 6)'}}
+    date="Sep 2024 - Present"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon={<img src='/netint.jpg' alt='NETINT Technologies' className='w-18 h-18' />}
+  >
+    <Link href='https://www.linkedin.com/company/netint-technologies'>
+    <h3 className="vertical-timeline-element-title">AI Software Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">NETINT Technologies Inc.</h4>
+    <h5 className='text-md'>Burnaby, BC</h5>
+    <p>
+      More AI and LLM stuffs, basically building and improving upon ChatGPT clones for internal use.
+    </p>
     </Link>
   </VerticalTimelineElement>
   </VerticalTimeline>
