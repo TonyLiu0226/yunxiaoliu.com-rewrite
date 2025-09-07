@@ -31,7 +31,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="May 2022 - Sep 2022"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18' />}
+    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/experience-flyover'>
     <h3 className="vertical-timeline-element-title">Guest Experience Guide</h3>
@@ -53,7 +53,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Jun 2022 - Sep 2022"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/bigleaf.jpg' alt='The Big Leaf' className='w-18 h-18' />}
+    icon={<img src='/bigleaf.jpg' alt='The Big Leaf' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/thebigleaf/?originalSubdomain=ca'>
     <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
@@ -73,7 +73,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Jan 2023 - Apr 2023"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18' />}
+    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/invoke-co/'>
     <h3 className="vertical-timeline-element-title">Fullstack Developer</h3>
@@ -92,7 +92,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="May 2023 - Dec 2023"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18' />}
+    icon={<img src='/flyover.jpg' alt='Flyover Canada' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/experience-flyover'>
     <h3 className="vertical-timeline-element-title">Guest Experience Guide</h3>
@@ -108,7 +108,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Dec 2023 - Feb 2024"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/boardspace.jpg' alt='BoardSpace' className='w-18 h-18' />}
+    icon={<img src='/boardspace.jpg' alt='BoardSpace' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/board-space/'>
     <h3 className="vertical-timeline-element-title">AI Software Developer</h3>
@@ -130,7 +130,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Jun 2024 - Aug 2024"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18' />}
+    icon={<img src='/invoke.jpg' alt='Invoke Media' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/invoke-co/'>
     <h3 className="vertical-timeline-element-title">Fullstack Developer</h3>
@@ -154,7 +154,7 @@ const Work = () => {
     contentStyle={{ background: 'rgb(217 119 6)'}}
     date="Sep 2024 - Present"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<img src='/netint.jpg' alt='NETINT Technologies' className='w-18 h-18' />}
+    icon={<img src='/netint.jpg' alt='NETINT Technologies' className='w-18 h-18 rounded-full' />}
   >
     <Link href='https://www.linkedin.com/company/netint-technologies'>
     <h3 className="vertical-timeline-element-title">AI Software Engineer</h3>
