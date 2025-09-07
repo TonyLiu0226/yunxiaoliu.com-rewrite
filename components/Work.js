@@ -152,7 +152,7 @@ const Work = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(217 119 6)'}}
-    date="Sep 2024 - Present"
+    date="Sep 2024 - Apr 2025"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<img src='/netint.jpg' alt='NETINT Technologies' className='w-18 h-18 rounded-full' />}
   >
