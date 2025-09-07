@@ -2,6 +2,24 @@ import styles from '../styles/Index.module.css'
 import ProjectCard from '../components/ProjectCard'
 
 const ProjectList = [
+  {
+    Title: "FlowLeaflets",
+    Description: "Developed in collaboration with a nonprofit, Flowleaflets is a SaaS that allows medical students to transcribe and digitize handwritten notes from medical logbooks.",
+    Technologies: ", NodeJS, React, Supabase, Python, Flask, Llama, transformers",
+    Link: "https://github.com/ubclaunchpad/clinical-logging"
+  },
+  {
+    Title: "Class of \'19",
+    Description: "A visual novel about the experiences of two high school friends as they navigate the complexities of high school life.",
+    Technologies: ", Python, RenPy, OpenAI, Suno",
+    Link: "https://github.com/TonyLiu0226/Class_of_19"
+  },
+  {
+    Title: "Celeste.png",
+    Description: "An app that leverages open-source LLMs hosted locally to generate short stories based on user-controlled prompts and togglable parameters.",
+    Technologies: ", NextJS, TypeScript, TailwindCSS, Python, transformers, Ollama",
+    Link: "https://github.com/TonyLiu0226/celeste.png"
+  },
   { Title: 'MoodSense',
     Description: 'An AI-enhanced journaling app that performs sentiment analysis on journal entries and comments about your experiences.',
     Technologies: ', Python, scikit-learn, Pandas, NumPy, TypeScript, NextJS, Firebase',
