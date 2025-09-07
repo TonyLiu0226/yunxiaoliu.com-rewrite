@@ -3,6 +3,16 @@ import CourseCard from '../components/CourseCard'
 
 const CourseList = [
   {
+    Title: 'CPSC 416',
+    ImagePath: 'CPSC_416.png',
+    Description: 'Distributed Systems'
+  },
+  {
+    Title: 'CPSC 320',
+    ImagePath: 'CPSC_320.png',
+    Description: 'Data Structures and Algorithms II'
+  },
+  {
     Title: 'CPEN 355',
     ImagePath: 'CPEN_355.png',
     Description: 'Machine learning with engineering applications',
@@ -11,6 +21,11 @@ const CourseList = [
     Title: 'ELEC 331',
     ImagePath: 'ELEC_331.png',
     Description: 'Computer networking and communications',
+  },
+  {
+    Title: 'CPEN 322',
+    ImagePath: 'CPEN_322.png',
+    Description: "Software Construction and Web Development"
   },
   {
     Title: 'CPSC 304',
@@ -30,7 +45,7 @@ const CourseList = [
   {
     Title: 'CPSC 221',
     ImagePath: 'CPSC_221.png',
-    Description: 'Data structures and algorithms',
+    Description: 'Data structures and algorithms I',
   },
   {
     Title: 'CPEN 291',
