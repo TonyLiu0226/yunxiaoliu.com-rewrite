@@ -16,7 +16,7 @@ const Contacts = () => {
       <Link href="https://www.youtube.com/channel/UCYLZDU2vS-FeL1E2YaWrG3w"><FontAwesomeIcon icon={faYoutube} size='2x' className="dark:text-white"/></Link>
       <Link href="https://www.instagram.com/tony_26l?igsh=YTQwZjQ0NmI0OA=="><FontAwesomeIcon icon={faSquareInstagram} size='2x' className="dark:text-white"/></Link>
       </div>
-    <Link href="https://drive.google.com/file/d/1aCyP7vbrY9AkXzAraJyCB_FFTNKGGAL-/view?usp=sharing"><p className="text-emerald-400 dark:text-emerald-100 text-sm md:text-base xl:text-lg">You can also view my resume here</p></Link>
+    <Link href="https://drive.google.com/file/d/14SlB801HZZ8ivKPfCNDVEMBr7i3tBKiC/view?usp=sharing"><p className="text-emerald-400 dark:text-emerald-100 text-sm md:text-base xl:text-lg">You can also view my resume here</p></Link>
     </Card>
     </div>
     </div>
